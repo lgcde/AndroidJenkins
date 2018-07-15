@@ -17,7 +17,7 @@ RUN echo "export PATH=${PATH}:${GRADLE_HOME}/bin" >> /etc/profile
 ENV PATH ${PATH}:${GRADLE_HOME}/bin
 
 ENV JENKINS_HOME /var/jenkins_home
-ENV JENKINS_VERSION 1.609.1
+ENV JENKINS_VERSION 2.121.1
 ENV JENKINS_UC https://updates.jenkins-ci.org
 ENV COPY_REFERENCE_FILE_LOG /var/log/copy_reference_file.log
 RUN useradd -d "${JENKINS_HOME}" -u 1000 -m -s /bin/bash jenkins
